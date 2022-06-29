@@ -18,18 +18,18 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Caplab Onboarding Wiki
+title: CCOE Wiki
 email: CapabilitiesLab@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  This website serves as a hub of onboarding documentation, standards, and procedures for Caplab employees. 
-baseurl: "/caplab-onboarding.github.io/" # the subpath of your site, e.g. /blog
-domain: "caplab-onboard.github.io" 
-url: "https://caplab-onboard.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+  A hub of AWS documentation for the Cloud Center of Excellence. 
+baseurl: "/CCOE-Wiki.github.io/" # the subpath of your site, e.g. /blog
+domain: "CCOE-Wiki.github.io" 
+url: "https://CCOE-Wiki.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: 
+github_username:  
 
 # Build settings
-remote_theme: pages-themes/leap-day@0.2.0
+remote_theme: just-the-docs/just-the-docs
 plugins:
   - jekyll-remote-theme
   - jekyll-feed
